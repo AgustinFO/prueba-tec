@@ -25,7 +25,7 @@ jobs:
             file: Dockerfile
             context: ./prueba3
             push: true
-            tags: <AgustinFO>/<pueba-tec>:${{github.sha}},<AgustinFO>/<pueba-tec>:${{github.ref_name}}-${{github.run_id}}
+            tags: <AgustinFO>/<prueba-tec>:${{github.sha}},<AgustinFO>/<prueba-tec>:${{github.ref_name}}-${{github.run_id}}
             
   deployement:
     runs-on: ubuntu-latest
