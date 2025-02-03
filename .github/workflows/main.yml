@@ -9,9 +9,6 @@ jobs:
   docker_build:
     runs-on: ubuntu-latest
     steps:  
-    
-      - name: Checkout code
-        uses: actions/checkout@v4.2.2
       
       - name: Docker Login
         uses: docker/login-action@v3.3.0
@@ -25,7 +22,7 @@ jobs:
             file: Dockerfile
             context: ./prueba3
             push: true
-            tags: <AgustinFO>/<prueba-tec>:${{github.sha}},<AgustinFO>/<prueba-tec>:${{github.ref_name}}-${{github.run_id}}
+            tags: user/app:latest
             
   deployement:
     runs-on: ubuntu-latest
