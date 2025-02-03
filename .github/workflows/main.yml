@@ -24,7 +24,7 @@ jobs:
             file: ./prueba3/Dockerfile
             context: ./prueba3
             push: true
-            tags: user/app:latest
+            tags: ${{ secrets.DOCKERHUB_USERNAME }}/app:latest
             
   deployment:
     runs-on: ubuntu-latest
