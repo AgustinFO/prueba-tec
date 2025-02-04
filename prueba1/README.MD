@@ -44,9 +44,9 @@
 
 - AWS Shield: Es un servicio de protección contra ataques DDoS que protege nuestra aplicación, tiene un modo de protección continuo con mitigaciones automáticas.
 
-- AWS WAF: Es un Firewall que prote nuestra aplicación web contra ataques comunes.
+- AWS WAF: Es un Firewall que protege nuestra aplicación web contra ataques comunes.
 
 ## Referencias
 
-https://aws.amazon.com/es/microservices/
-https://aws.amazon.com/es/blogs/aws-spanish/category/aws-well-architected/
+- https://aws.amazon.com/es/microservices/
+- https://aws.amazon.com/es/blogs/aws-spanish/category/aws-well-architected/
