@@ -9,7 +9,7 @@
 
 ![alt text](diagrama_red.png)
 
-## Solución realizada:
+# Solución realizada:
 
 - Ya que no se especifica, la solución se basa en un diseño CSR (Client Side Rendering), por esto mismo se utilizan solo 2 instancias EC2 para el procesamiento del backend. En caso de necesitar un diseño SSR (Server Side Rendering) Podríamos utilizar 4 instancias EC2 (mayor carga de procesamiento), 2 para el frontend y 2 para el backend (depende el tráfico).
 
@@ -49,3 +49,4 @@
 ## Referencias
 
 https://aws.amazon.com/es/microservices/
+https://aws.amazon.com/es/blogs/aws-spanish/category/aws-well-architected/
